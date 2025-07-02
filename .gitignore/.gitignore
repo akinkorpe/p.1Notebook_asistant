@@ -1,0 +1,53 @@
+# .gitignore (Python için örnek)
+
+# Bytecode dosyaları
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ortam dosyaları
+.env
+.venv/
+venv/
+ENV/
+env/
+pip-selfcheck.json
+
+# Pytest, coverage ve test çıktıları
+.cache/
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# IDE dosyaları
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Kişisel notlar
+*.log
+*.bak
+*.tmp
+
+# MacOS
+.DS_Store
+
+# Jupyter Notebooks Checkpoint'leri
+.ipynb_checkpoints/
+
+# Paketleme çıktıları
+build/
+dist/
+*.egg-info/
+
+# Git metaverileri (gerekirse)
+*.orig
+
+# Notebook çıktıları
+*.nbconvert.ipynb
+
+# Gizli anahtarlar, şifreler vb.
+secrets.json
+adstd
